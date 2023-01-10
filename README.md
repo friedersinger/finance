@@ -1,6 +1,8 @@
 # README
 
-This is a Python web application built with the Flask framework. The application simulates a stock trading platform where users can buy and sell stocks and view their transaction history.
+The provided Python code is a web application that simulates a stock trading platform. The application is built using the Flask web framework and the CS50 SQL library, which allows the application to interact with an SQLite database called "finance.db".
+
+The code defines several routes that handle different functionality of the application, such as buying and selling stocks, viewing the portfolio, and viewing transaction history. When a user buys or sells a stock, the transaction details (user ID, stock symbol, number of shares, and price) are recorded in the "transactions" table of the "finance.db" database. This allows the user to view their transaction history and see their current portfolio at any time. Additionally, cash transactions are also updated in the "users" table of the same database.
 
 ## Required Libraries
 
